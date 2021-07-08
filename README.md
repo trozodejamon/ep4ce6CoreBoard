@@ -11,9 +11,9 @@ so I would direct you to either the schematic or the board silkscreen itself for
 
 | Signal Name | Pin Number | Notes |
 | ----------- |:----------:| ----- |
-| led1        | 98         |       |
-| led2        | 87         |       |
+| LED1        | 98         |       |
+| LED2        | 87         |       |
 | S1          | 24         | Pull-Up resistor |
 | S2          | 25         | Pull-Up resistor |
-| CLOCK       | 23         | 50 MHz |
+| CLOCK (X1)  | 23         | 50 MHz |
 | RESET       | 88         | Active low |
