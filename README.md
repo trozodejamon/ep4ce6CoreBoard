@@ -5,6 +5,21 @@ These are a collection of notes and resources, inasmuch for myself as for anyone
 
 ![alt text](CoreBoard1.png "Top view of Cyclone IV Core Board")
 
+## Port Descriptions
+This is as close as I can figure them out to be.
+
+| Port Name/Label | Usage |
+| --------------- | ----- |
+| Power | Provide DC 5V 1A power to the board |
+| Blue switch | Turns DC barrel jack power on/off |
+| USB Type B Mini | Power the board with USB. No data |
+| P1 header | For camera module |
+| P2 header | For VGA/SD Card/PS2/Ethernet module(s) |
+| P3 header | For SDRAM module |
+| P4 header | For SDRAM module |
+| AS IDC port | To directly program the SPI config memory |
+| JTAG IDC port | For JTAG programming |
+
 ## Pin Assignments
 Only the unlabelled pin assignments will be indicated here - as for the pin headers themselves, the package pin numbers are already printed next to the pins themselves
 so I would direct you to either the schematic or the board silkscreen itself for reference.
