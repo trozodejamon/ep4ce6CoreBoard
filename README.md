@@ -17,7 +17,7 @@ This is as close as I can figure them out to be.
 | P2 header | For VGA/SD Card/PS2/Ethernet module(s) |
 | P3 header | For SDRAM module |
 | P4 header | For SDRAM module |
-| AS IDC port | To directly program the SPI config memory |
+| AS IDC port | "Active Serial" - To directly program the SPI config memory |
 | JTAG IDC port | For JTAG programming |
 
 ## Pin Assignments
@@ -26,8 +26,8 @@ so I would direct you to either the schematic or the board silkscreen itself for
 
 | Signal Name | Pin Number | Notes |
 | ----------- |:----------:| ----- |
-| LED1        | 98         |       |
-| LED2        | 87         |       |
+| LED1        | 98         | Logic 0 to turn on. |
+| LED2        | 87         | Logic 0 to turn on. |
 | S1          | 24         | Pull-Up resistor |
 | S2          | 25         | Pull-Up resistor |
 | CLOCK (X1)  | 23         | 50 MHz |
