@@ -32,3 +32,21 @@ so I would direct you to either the schematic or the board silkscreen itself for
 | S2          | 25         | Pull-Up resistor |
 | CLOCK (X1)  | 23         | 50 MHz |
 | RESET       | 88         | Active low |
+
+## VGA and Micro SD-Card Module
+The VGA and Micro SD-Card Module is meant to be plugged into header P2, being sure to align the GND and 3V3 (3.3V) pins which are marked on the module itself.
+
+| FPGA Pin | Function |     |     | Function | FPGA Pin |
+|:--------:| -------- | --- | --- | -------- |:--------:|
+|     | GND   | 1    | 2    | 3V3    |     |
+| 86  | MOSI  | 3    | 4    | CS     | 85  |
+| 84  | MISO  | 5    | 6    | SCK    | 83  |
+| 80  | Red   | 7    | 8    | Red    | 77  |
+| 76  | Red   | 9    | 10   | Red    | 75  |
+| 74  | Red   | 11   | 12   | Green  | 73  |
+| 72  | Green | 13   | 14   | Green  | 71  |
+| 70  | Green | 15   | 16   | Green  | 69  |
+| 68  | Green | 17   | 18   | Blue   | 67  |
+| 66  | Blue  | 19   | 20   | Blue   | 65  |
+| 64  | Blue  | 21   | 22   | Blue   | 60  |
+| 59  | VSYNC | 23   | 24   | HSYNC  | 58  |
