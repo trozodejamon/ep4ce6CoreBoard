@@ -36,6 +36,8 @@ so I would direct you to either the schematic or the board silkscreen itself for
 ## VGA and Micro SD-Card Module
 The VGA and Micro SD-Card Module is meant to be plugged into header P2, being sure to align the GND and 3V3 (3.3V) pins which are marked on the module itself.
 
+![alt text](VGAandSDModule.png "VGA and Micro SD Card Module")
+
 | FPGA Pin | Function |     |     | Function | FPGA Pin |
 |:--------:| -------- | --- | --- | -------- |:--------:|
 |     | GND   | 1    | 2    | 3V3    |     |
