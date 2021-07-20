@@ -35,20 +35,21 @@ so I would direct you to either the schematic or the board silkscreen itself for
 
 ## VGA and Micro SD-Card Module
 The VGA and Micro SD-Card Module is meant to be plugged into header P2, being sure to align the GND and 3V3 (3.3V) pins which are marked on the module itself.
+The VGA pinout uses a resistor ladder connected to a 16-bit RGB output formatted in the popular 5-6-5 bitfield arrangement. The Micro SD Card connector is wired up in SPI mode.
 
 ![alt text](VGAandSDModule.png "VGA and Micro SD Card Module")
 
 | FPGA Pin | Function |     |     | Function | FPGA Pin |
 |:--------:| -------- | --- | --- | -------- |:--------:|
-|     | GND   | 1    | 2    | 3V3    |     |
-| 86  | MOSI  | 3    | 4    | CS     | 85  |
-| 84  | MISO  | 5    | 6    | SCK    | 83  |
-| 80  | Red   | 7    | 8    | Red    | 77  |
-| 76  | Red   | 9    | 10   | Red    | 75  |
-| 74  | Red   | 11   | 12   | Green  | 73  |
-| 72  | Green | 13   | 14   | Green  | 71  |
-| 70  | Green | 15   | 16   | Green  | 69  |
-| 68  | Green | 17   | 18   | Blue   | 67  |
-| 66  | Blue  | 19   | 20   | Blue   | 65  |
-| 64  | Blue  | 21   | 22   | Blue   | 60  |
-| 59  | VSYNC | 23   | 24   | HSYNC  | 58  |
+|     | GND      | 1    | 2    | 3V3    |     |
+| 86  | SD-MOSI  | 3    | 4    | SD-CS  | 85  |
+| 84  | SD-MISO  | 5    | 6    | SD-CLK | 83  |
+| 80  | Red      | 7    | 8    | Red    | 77  |
+| 76  | Red      | 9    | 10   | Red    | 75  |
+| 74  | Red      | 11   | 12   | Green  | 73  |
+| 72  | Green    | 13   | 14   | Green  | 71  |
+| 70  | Green    | 15   | 16   | Green  | 69  |
+| 68  | Green    | 17   | 18   | Blue   | 67  |
+| 66  | Blue     | 19   | 20   | Blue   | 65  |
+| 64  | Blue     | 21   | 22   | Blue   | 60  |
+| 59  | VSYNC    | 23   | 24   | HSYNC  | 58  |
