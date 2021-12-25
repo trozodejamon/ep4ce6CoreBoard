@@ -6,14 +6,14 @@ These are a collection of notes and resources, inasmuch for myself as for anyone
 ![alt text](CoreBoard1.png "Top view of Cyclone IV Core Board")
 
 ## Port Descriptions
-This is as close as I can figure them out to be.
+This is as close as I can figure them out to be. While the ports may have fixed "purposes" when combined with the seller's ready-made expansion modules, as-is, they can be considered to be general purpose I/O as well.
 
 | Port Name/Label | Usage |
 | --------------- | ----- |
 | Power | Provide DC 5V 1A power to the board |
 | Blue switch | Turns DC barrel jack power on/off |
 | USB Type B Mini | Power the board with USB. No data |
-| P1 header | For camera module |
+| P1 header | For camera module or General Purpose|
 | P2 header | For VGA/SD Card/PS2/Ethernet module(s) |
 | P3 header | For SDRAM module or General Purpose |
 | P4 header | For SDRAM module or General Purpose |
