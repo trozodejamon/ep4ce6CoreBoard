@@ -15,8 +15,8 @@ This is as close as I can figure them out to be.
 | USB Type B Mini | Power the board with USB. No data |
 | P1 header | For camera module |
 | P2 header | For VGA/SD Card/PS2/Ethernet module(s) |
-| P3 header | For SDRAM module |
-| P4 header | For SDRAM module |
+| P3 header | For SDRAM module or General Purpose |
+| P4 header | For SDRAM module or General Purpose |
 | AS IDC port | "Active Serial" - To directly program the SPI config memory |
 | JTAG IDC port | For JTAG programming |
 
