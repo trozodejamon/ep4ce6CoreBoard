@@ -36,7 +36,7 @@ so I would direct you to either the schematic or the board silkscreen itself for
 ## SDRAM Module
 An SDRAM module is available that fits the P3 and P4 headers exactly, with the top left corner being indicated with an alignment arrow on both the Core board and the SDRAM module. The module features a 256Mbit (32MB) Hynix HY57V561620FTP-H SDRAM chip in a 400 mil 54-pin TSSOP II package.
 
-![alt text]("SDRAM Module.png" "SDRAM Module")
+![alt text](SDRAM_Module.png "SDRAM Module")
 
 ## VGA and Micro SD-Card Module
 The VGA and Micro SD-Card Module is meant to be plugged into header P2, being sure to align the GND and 3V3 (3.3V) pins which are marked on the module itself.
